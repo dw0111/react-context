@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "npm run build-next && npm run build-storybook && npm run build-server",
-    "start": "NODE_ENV=production node build/index.js",
+    "start": "NODE_ENV=production node pages/index.tsx",
     "eslint": "eslint .",
     "prettify": "prettier --write .",
     "prettycheck": "prettier --check .",
